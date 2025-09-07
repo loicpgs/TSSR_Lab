@@ -64,12 +64,12 @@ ip routing
 
 ## 🎯 Points clés à retenir
 
-Switch : couche 2, VLAN, MAC, LAN local
+ **Switch**  : couche 2, VLAN, MAC, LAN local
 
-Routeur : couche 3, IP, inter-réseaux
+**Routeur** : couche 3, IP, inter-réseaux
 
-Switch L3 : combine les deux fonctions
+ **Switch L3** : combine les deux fonctions
 
-Comprendre tables MAC et tables de routage est fondamental pour TSSR
+Comprendre **tables MAC et tables de routage** est **fondamental** pour TSSR
 
 ✍️ Ce fichier fait partie du repo TSSR_Lab pour apprendre et documenter les fondamentaux réseau.
