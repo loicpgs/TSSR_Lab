@@ -29,4 +29,4 @@ Ce blog peut servir comme **référence complémentaire** aux guides pratiques d
 
 ---
 
-**💡 Astuce** : ajouter ce blog dans tes références pour chaque outil abordé dans le repo, afin de guider un lecteur vers des explications plus détaillées.
+
