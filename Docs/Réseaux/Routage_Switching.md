@@ -47,12 +47,12 @@ Ce document explique les bases du **switching** et du **routing**, deux fonction
 - Un routeur gère plusieurs VLAN via **sous-interfaces**  
 - Permet la communication entre VLANs sur un lien trunk  
 
-```bash
+
 interface g0/0.10
   encapsulation dot1Q 10
   ip address 192.168.10.1 255.255.255.0
 
-2️⃣ Switch L3
+### 2️⃣ Switch L3
 
 Le switch peut router directement entre VLANs
 
@@ -62,7 +62,7 @@ interface vlan 10
   ip address 192.168.10.1 255.255.255.0
 ip routing
 
-🎯 Points clés à retenir
+## 🎯 Points clés à retenir
 
 Switch : couche 2, VLAN, MAC, LAN local
 
