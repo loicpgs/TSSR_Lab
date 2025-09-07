@@ -9,46 +9,45 @@ Nmap (Network Mapper) est un outil libre de scan et d’audit réseau, utilisé 
 - Téléchargement officiel : [https://nmap.org/download.html](https://nmap.org/download.html)  
 - Compatible **Windows**, **Linux**, **Mac**  
 - Vérification :  
-```bash
-nmap --version
 
-2️⃣ Concepts clés
 
-Hôte : un périphérique réseau détecté (PC, serveur, switch…)
+## 2️⃣ Concepts clés
 
-Port : point d’accès réseau sur un hôte
+**Hôte** : un périphérique réseau détecté (PC, serveur, switch…)
 
-Service : application écoutant sur un port (HTTP, SSH…)
+**Port** : point d’accès réseau sur un hôte
 
-Scan : méthode pour détecter les hôtes et services actifs
+**Service** : application écoutant sur un port (HTTP, SSH…)
 
-OS Detection : identification du système d’exploitation
+**Scan** : méthode pour détecter les hôtes et services actifs
 
-3️⃣ Utilisation de base
+**OS Detection** : identification du système d’exploitation
 
-Scanner un réseau :
+## 3️⃣ Utilisation de base
+
+**Scanner un réseau** :
 
 nmap 192.168.1.0/24
 
-Scanner un port précis :
+**Scanner un port précis** :
 
 nmap -p 80 192.168.1.10
 
-Scan complet avec détection d’OS et services :
+**Scan complet avec détection d’OS et services** :
 
 nmap -A 192.168.1.10
 
-Mode verbeux pour détails :
+**Mode verbeux pour détails** :
 
 nmap -v 192.168.1.0/24
 
-4️⃣ Astuces
+## 4️⃣ Astuces
 
-Exporter les résultats :
+**Exporter les résultats :**
 
 nmap -oN resultat_scan.txt 192.168.1.0/24
 
-canner rapidement : nmap -F [IP]
+**scanner rapidement** : nmap -F [IP]
 
 Utiliser des scripts Nmap : nmap --script [nom_script] [IP]
 
