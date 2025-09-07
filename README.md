@@ -12,7 +12,6 @@ Vous y trouverez des **topologies réseau**, des **simulations Packet Tracer** e
 
 ## Structure du repository
 Topologies/          # Labs Packet Tracer (fichiers .pkt)  
-Wireshark-Captures/  # Captures de paquets (.pcap)  
 Assets/              # Schémas, diagrammes, illustrations  
 Docs/                # Guides et documentation supplémentaires  
 
