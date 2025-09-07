@@ -1,4 +1,4 @@
-### 🔐 SSH & SCP – Guide complet
+# 🔐 SSH & SCP – Guide complet
 
 **SSH (Secure Shell) et SCP (Secure Copy)** sont essentiels pour la connexion et le transfert sécurisé de fichiers sur un réseau. Ce guide couvre installation, utilisation, astuces et bonnes pratiques.
 
