@@ -2,7 +2,7 @@
 
 ## Description
 Bienvenue dans **TSSR Lab**, un repository pratique pour les **Techniciens Systèmes et Réseaux**.  
-Vous y trouverez des **topologies réseau**, des **simulations Packet Tracer**, des **captures Wireshark** et des **analyses de trafic**, conçues pour expérimenter et se former en conditions réelles.
+Vous y trouverez des **topologies réseau**, des **simulations Packet Tracer** et des **analyses de trafic**, conçues pour expérimenter et se former en conditions réelles.
 
 ## Objectifs
 - Pratiquer la configuration et la gestion des réseaux locaux (LAN) et étendus (WAN)  
@@ -24,7 +24,6 @@ Docs/                # Guides et documentation supplémentaires
 
 ## Outils utilisés
 - **Packet Tracer** : simulation et configuration réseau  
-- **Wireshark** : capture et analyse de paquets  
 - **Cisco/HP/Netgear** : équipements réseau simulés  
 - **VirtualBox / VMware** : virtualisation de serveurs  
 
