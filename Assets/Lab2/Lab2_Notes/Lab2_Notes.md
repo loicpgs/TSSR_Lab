@@ -6,7 +6,7 @@ Ce laboratoire illustre la configuration d'un réseau local simple avec trois PC
 
 ## 1. Topologie du réseau
 
-![Topologie du réseau](https://github.com/loicpgs/TSSR_Lab/blob/main/Assets/Lab2/Lab2_Captures/Topologie.png)
+![Topologie du réseau](https://github.com/loicpgs/TSSR_Lab/blob/edf4a9c4e142abb7350ef427086067055f42280c/Assets/Lab2/Lab2_Captures/Capture%20d'%C3%A9cran%202025-09-08%20204257.png)
 
 **Description :**
 - Trois PC connectés à un switch.
@@ -32,42 +32,47 @@ Ce laboratoire illustre la configuration d'un réseau local simple avec trois PC
 - Accéder à l'onglet **Desktop** → **IP Configuration**.
 - Saisir l'adresse IP, le masque de sous-réseau et la passerelle.
 
+![Configuration Ips](https://github.com/loicpgs/TSSR_Lab/blob/edf4a9c4e142abb7350ef427086067055f42280c/Assets/Lab2/Lab2_Captures/Capture%20d'%C3%A9cran%202025-09-08%20204433.png)
+
 ### Serveur HTTP
 - Accéder à l'onglet **Desktop** → **IP Configuration**.
 - Saisir l'adresse IP, le masque de sous-réseau et la passerelle.
 - Accéder à l'onglet **Services** → **HTTP**.
 - Activer le service HTTP.
 
+![Serveur HTTP](https://github.com/loicpgs/TSSR_Lab/blob/edf4a9c4e142abb7350ef427086067055f42280c/Assets/Lab2/Lab2_Captures/Capture%20d'%C3%A9cran%202025-09-08%20204731.png)
 ---
 
 ## 4. Test de connectivité (Ping)
 
 ### PC1 → Serveur HTTP
 
-![Ping de PC1 vers le serveur HTTP](https://github.com/loicpgs/TSSR_Lab/blob/main/Assets/Lab2/Lab2_Captures/Ping_PC1_Serveur.png)
+![Ping de PC1 vers le serveur HTTP](https://github.com/loicpgs/TSSR_Lab/blob/edf4a9c4e142abb7350ef427086067055f42280c/Assets/Lab2/Lab2_Captures/Capture%20d'%C3%A9cran%202025-09-08%20204959.png)
 
-Commande :
+**Commande :**
 
 ping 192.168.1.13
 
-5. Test HTTP
+## 5. Test HTTP
 
-Depuis PC1 : Accéder à l'onglet Desktop → Web Browser.
+**Depuis PC1 :** Accéder à l'onglet Desktop → Web Browser.
 
 Saisir l'adresse http://192.168.1.13.
 
-La page d'accueil du serveur HTTP devrait s'afficher.
+**La page d'accueil du serveur HTTP devrait s'afficher.**
 
-6. Résumé
+![Test HTTP](https://github.com/loicpgs/TSSR_Lab/blob/edf4a9c4e142abb7350ef427086067055f42280c/Assets/Lab2/Lab2_Captures/Capture%20d'%C3%A9cran%202025-09-08%20205227.png)
 
-Tous les périphériques sont sur le même réseau 192.168.1.0/24.
+## 6. Résumé
 
-Le switch fonctionne en Layer 2, aucun routage nécessaire.
+Tous **les périphériques** sont sur le **même réseau 192.168.1.0/24.**
+
+Le switch fonctionne en **Layer 2**, aucun routage nécessaire.
 
 Ce laboratoire permet de pratiquer :
 
-L'adressage IP statique
+**L'adressage IP statique**
 
-Le test de connectivité avec ping
+**Le test de connectivité avec ping**
 
-L'accès HTTP au serveur
+**L'accès HTTP au serveur**
