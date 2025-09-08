@@ -16,7 +16,7 @@ Assets/              # Schémas, diagrammes, illustrations
 Docs/                # Guides et documentation supplémentaires  
 
 ## Liste des labs
-- **Lab1** : Topologie LAN simple avec 2 PC switch 
+- **Lab1** : Topologie LAN simple avec 2 PC + 1 switch 
 - **Lab2** : Topologie LAN simple avec 3 PC + 1 serveur HTTP + switch
 - **Lab3** : DHCP et DNS sur réseau simulé  
 - **Lab4** : Analyse de paquets et détection d’anomalies réseau  
