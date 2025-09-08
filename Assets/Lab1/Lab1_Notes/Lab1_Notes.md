@@ -31,7 +31,7 @@ Paramètres :
 ![Configuration IP PC2](https://github.com/loicpgs/TSSR_Lab/blob/e68b677863e3fba0e84ffa388de89b0ea5f96741/Assets/Lab1/Lab1_Captures.md/Capture%20d'%C3%A9cran%202025-09-08%20174805.png)
 
 Paramètres :  
-- IP : 192.168.1.20  
+- IP : 192.168.1.11 
 - Masque : 255.255.255.0  
 - Gateway : 192.168.1.1 (optionnel)
 
@@ -41,7 +41,7 @@ Paramètres :
 
 ![Test ping PC1 → PC2](https://github.com/loicpgs/TSSR_Lab/blob/e68b677863e3fba0e84ffa388de89b0ea5f96741/Assets/Lab1/Lab1_Captures.md/Capture%20d'%C3%A9cran%202025-09-08%20174918.png)
 
-- PC1 → PC2 : `ping 192.168.1.20`  
+- PC1 → PC2 : `ping 192.168.1.11`  
 - PC2 → PC1 : `ping 192.168.1.10`  
 - Résultat : succès, le LAN fonctionne correctement.
 
