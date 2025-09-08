@@ -1,4 +1,4 @@
-# Lab2 : LAN avec 3 PC et 1 serveur HTTP
+# Lab2 : LAN avec 3 PC 1 switch et 1 serveur HTTP
 
 Ce laboratoire illustre la configuration d'un réseau local simple avec trois PC et un serveur HTTP dans Cisco Packet Tracer.
 
